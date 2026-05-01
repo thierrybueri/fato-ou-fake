@@ -3,7 +3,7 @@ import streamlit as st
 from openai import OpenAI
 import os
 
-client = OpenAI(api_key=st.secrets["OPENAI_API_KEY"])
+client = OpenAI(api_key=st.secrets["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"])
 
 st.set_page_config(page_title="É Fake ou é Fato?", page_icon="🕵️")
 
